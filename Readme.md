@@ -24,19 +24,19 @@ In minifies the code in place, so on input like this:
 ```js
 const delay = '750ms';
 const styles = css`
-    & {
-        animation: ${delay} linear 0s 1 normal none running &(fade-in);
-    }
+  & {
+    animation: ${delay} linear 0s 1 normal none running &(fade-in);
+  }
 
-    @keyframes &(fade-in) {
-        0%,
-        60% {
-        opacity: 0;
-        }
-        100% {
-        opacity: 1;
-        }
+  @keyframes &(fade-in) {
+    0%,
+    60% {
+      opacity: 0;
     }
+    100% {
+      opacity: 1;
+    }
+  }
 `;
 ```
 
