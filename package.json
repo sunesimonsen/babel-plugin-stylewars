@@ -5,6 +5,11 @@
   "main": "src/index.js",
   "author": "Sune Simonsen",
   "license": "MIT",
+  "bugs": "https://github.com/sunesimonsen/babel-plugin-stylewars/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sunesimonsen/babel-plugin-stylewars"
+  },
   "scripts": {
     "test": "mocha src/*.spec.js"
   },
