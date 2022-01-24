@@ -22,5 +22,8 @@
   },
   "dependencies": {
     "lodash.difference": "^4.5.0"
+  },
+  "engines": {
+    "node": ">=12"
   }
 }
